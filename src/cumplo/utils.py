@@ -10,3 +10,8 @@ def get_last_week():
 
 def convert_date_to_str(date):
     return date.strftime("%Y-%m-%d")
+
+
+def convert_str_to_date(string, format_date='%d/%m/%Y'):
+    date = datetime.strptime(string, format_date).date()
+    return date
