@@ -18,7 +18,7 @@ Run the project
 make docker-local-run
 ```
 
-In other terminal run migrations
+In other terminal run migrate
 
 ```bash
 make docker-local-migrate
