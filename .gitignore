@@ -1,0 +1,6 @@
+__pycache___
+*.pyc
+db.sqlite3
+
+.env
+mysql-data/*
